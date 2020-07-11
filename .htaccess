@@ -1,0 +1,10 @@
+RewriteEngine On
+RewriteRule ^anasayfa index.php [L,NC]
+RewriteRule ^hakkimda hakkimda.php [L,NC]
+RewriteRule ^iletisim iletisim.php [L,NC]
+RewriteRule ^ara ara.php [L,NC]
+RewriteRule ^yazi-detay yazi-detay.php [L,NC]
+RewriteRule ^icerik/(.*)$ yazi-detay.php?icerik=$1 [L,QSA]
+RewriteRule ^kategori/(.*)$ kategori-detay.php?kategori=$1 [L,QSA]
+RewriteRule ^sayfa/(.*)$ sayfa.php?sayfa=$1 [L,QSA]
+

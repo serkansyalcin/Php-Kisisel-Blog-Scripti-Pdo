@@ -1,0 +1,16 @@
+Script kurulumu;
+1.Adım
+includes klasörü altındaki db.php sayfasını kendi veri tabanı bilgileriniz ile güncelleyiniz.
+2.Adım 
+admin klasörü altındaki includes klsörü içerisindeki db.php sayfasını kendi veri tabanı bilgileriniz ile güncelleyiniz.
+3.Adım
+tema klasörü içerisindeki header.php sayfasındaki <base href="http://localhost/blog/"> kodunu kendi site adresiniz ile
+değiştirin.
+4.Adım blog.sql veri tabanı dosyasını kendi veri tabanınıza içe aktarın
+İşlemler bu kadar. Güle güle kullanın.
+Yalçın Yazılım
+
+
+Yönetim paneli girişi için site adresiniz /admin
+Kullanıcı Adı: demo
+Şifre 123456789
